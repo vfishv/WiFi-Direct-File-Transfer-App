@@ -4,12 +4,17 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.app.wi_fi_direct"
-        minSdkVersion 19
+        minSdkVersion 19//19
         targetSdkVersion 28
         versionCode 2
         versionName "1.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    lintOptions {
+        abortOnError false
+    }
+
     buildTypes {
         release {
             minifyEnabled false

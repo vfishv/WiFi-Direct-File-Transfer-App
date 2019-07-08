@@ -64,7 +64,7 @@
                     <!--android:layout_width="wrap_content"-->
                     <!--android:layout_height="wrap_content"-->
                     <!--android:layout_marginStart="14dp"-->
-                    <!--android:fontFamily="@font/r_r"-->
+                    <!---->
                     <!--android:text="@string/history"-->
                     <!--android:textSize="14sp"-->
                     <!--android:textColor="@color/cTextGrey"-->
@@ -106,7 +106,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
-                    android:fontFamily="@font/r_r"
                     android:text="@string/store_location"
                     android:textSize="14sp"
                     android:textColor="@color/cTextGrey"
@@ -148,7 +147,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
-                    android:fontFamily="@font/r_r"
+                    
                     android:text="@string/rate_app"
                     android:textSize="14sp"
                     android:textColor="@color/cTextGrey"
@@ -190,7 +189,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
-                    android:fontFamily="@font/r_r"
+                    
                     android:text="@string/settings_of_wifi_direct"
                     android:textSize="14sp"
                     android:textColor="@color/cTextGrey"
@@ -232,7 +231,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
-                    android:fontFamily="@font/r_r"
+                    
                     android:text="@string/about_app"
                     android:textSize="14sp"
                     android:textColor="@color/cTextGrey"
@@ -274,7 +273,7 @@
                     <!--android:layout_width="wrap_content"-->
                     <!--android:layout_height="wrap_content"-->
                     <!--android:layout_marginStart="14dp"-->
-                    <!--android:fontFamily="@font/r_r"-->
+                    <!---->
                     <!--android:text="@string/clean_cache"-->
                     <!--android:textSize="14sp"-->
                     <!--android:textColor="@color/cTextGrey"-->
@@ -316,7 +315,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="14dp"
-                    android:fontFamily="@font/r_r"
+                    
                     android:text="@string/mail_to_developers"
                     android:textSize="14sp"
                     android:textColor="@color/cTextGrey"

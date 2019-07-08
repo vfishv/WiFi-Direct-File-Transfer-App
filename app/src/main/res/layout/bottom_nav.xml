@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/r_r"
+            
             android:paddingTop="3dp"
             android:text="@string/recomendations"
             android:textAlignment="center"
@@ -73,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/r_r"
+            
             android:paddingTop="3dp"
             android:text="@string/send"
             android:textAlignment="center"
@@ -105,7 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/r_r"
+            
             android:textSize="12sp"
             android:paddingTop="3dp"
             android:text="@string/receive"
@@ -138,7 +138,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="@font/r_r"
+            
             android:textSize="12sp"
             android:paddingTop="3dp"
             android:text="@string/settings"

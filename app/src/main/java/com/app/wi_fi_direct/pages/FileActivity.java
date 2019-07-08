@@ -103,7 +103,7 @@ public class FileActivity extends AppCompatActivity {
     //Find sending file list and set adapter
     rvSendingFilesList = findViewById(R.id.rvSendingFilesList);
     LinearLayoutManager filesListLayoutManager = new LinearLayoutManager(
-        this, LinearLayoutManager.VERTICAL, false);
+        this, RecyclerView.VERTICAL, false);
     rvSendingFilesList.setLayoutManager(filesListLayoutManager);
     sendFilesAdapter = new FilesSendAdapter();
     rvSendingFilesList.setAdapter(sendFilesAdapter);
@@ -111,7 +111,7 @@ public class FileActivity extends AppCompatActivity {
     //Find receiving file list and set adapter
     rvReceivingFilesList = findViewById(R.id.rvReceivingFilesList);
     LinearLayoutManager receiveFilesListLayoutManager = new LinearLayoutManager(
-        this, LinearLayoutManager.VERTICAL, false);
+        this, RecyclerView.VERTICAL, false);
     rvReceivingFilesList.setLayoutManager(receiveFilesListLayoutManager);
     receiveFilesAdapter = new FilesAdapter(this);
     rvReceivingFilesList.setAdapter(receiveFilesAdapter);
@@ -197,7 +197,7 @@ public class FileActivity extends AppCompatActivity {
     // Init Device info server for receiving device name who connected
     this.initDeviceInfoServers();
     RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(
-        this, LinearLayoutManager.VERTICAL, false);
+        this, RecyclerView.VERTICAL, false);
     rvDevicesList.setLayoutManager(mLayoutManager);
     p2pManager.discoverPeers(channel, null);
   }

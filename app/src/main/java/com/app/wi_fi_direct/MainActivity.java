@@ -12,7 +12,7 @@ import com.app.wi_fi_direct.pages.FileActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-  public int numbPermissions = 7;
+  public int numbPermissions = 8;
   public String[] permissions = new String[numbPermissions];
 
   @Override
@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     permissions[4] = android.Manifest.permission.READ_EXTERNAL_STORAGE;
     permissions[5] = android.Manifest.permission.CHANGE_NETWORK_STATE;
     permissions[6] = android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+    permissions[7] = android.Manifest.permission.ACCESS_FINE_LOCATION;
 
     if (!checkPermissions()) {
       ActivityCompat.requestPermissions(MainActivity.this, permissions, 49);

@@ -1,7 +1,7 @@
 package com.app.wi_fi_direct.adapters;
 
 import android.net.wifi.p2p.WifiP2pDevice;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
